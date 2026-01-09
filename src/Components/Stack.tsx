@@ -9,10 +9,13 @@ import { RiNextjsFill } from "react-icons/ri";
 import { DiRedis } from "react-icons/di";
 import Stackinput from "../parts/Stack";
 import { SiSocketdotio } from "react-icons/si";
-// import { FaGitAlt } from "react-icons/fa";
+import { FaGitAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaAws } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
+import { SiPostman } from "react-icons/si";
+import { SiWebrtc } from "react-icons/si"
+
 function Stack() {
   return (
     <div
@@ -37,6 +40,9 @@ function Stack() {
       <Stackinput name="Socket.io" icons={<SiSocketdotio size={35} className="ml-0 sm:ml-12 lg:ml-24" />} />
       <Stackinput name="Github" icons={<FaGithub size={40} className="ml-0 sm:ml-12 lg:ml-24" />} />
       <Stackinput name="AWS" icons={<FaAws size={40} className="ml-0 sm:ml-12 lg:ml-24" />} />
+      <Stackinput name="Postman" icons={<SiPostman size={40} className="ml-0 sm:ml-12 lg:ml-24" />} />
+      <Stackinput name="Git" icons={<FaGitAlt size={40} className="ml-0 sm:ml-12 lg:ml-24" />} />
+      <Stackinput name="WebRTC" icons={<SiWebrtc size={40} className="ml-0 sm:ml-12 lg:ml-24" />} />
     </div>
   );
 }

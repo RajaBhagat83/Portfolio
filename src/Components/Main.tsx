@@ -120,7 +120,6 @@ function Main() {
         {project && <Project />}
         {stackdata && <Stack />}
       </div>
-
       {/* Footer Divider */}
       <div className="h-0.5 w-full bg-gray-900 mt-20"></div>
     </div>
