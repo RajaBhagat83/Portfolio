@@ -3,7 +3,7 @@ import { CiTwitter } from "react-icons/ci";
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-import Name from "./Name";
+import Name from "../parts/Name";
 import Stack from "./Stack";
 import Project from "./Project";
 import { motion } from "motion/react";
