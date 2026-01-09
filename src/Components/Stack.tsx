@@ -22,13 +22,13 @@ function Stack() {
     <Stackinput name="Mongo DB" icons={ <DiMongodb size={40} className='ml-24'/>} />
     <Stackinput name="Postgres SQL" icons={ <DiPostgresql size={40} className='ml-24'/>} />
     <Stackinput name="Next Js" icons={ <RiNextjsFill size={40} className='ml-24'/>} />
+    <Stackinput name="Typescript" icons={ <SiTypescript size={35} className='ml-24'/>} />
     <Stackinput name="Tailwind CSS" icons={ <RiTailwindCssFill size={35} className='ml-24'/>} />
     <Stackinput name="Recoil" icons={ <SiRecoil size={40} className='ml-24'/>} />
     <Stackinput name="Redis" icons={ <DiRedis size={40} className='ml-24'/>} />
     <Stackinput name="Socket.io" icons={ <SiSocketdotio size={35} className='ml-24'/>} />
     <Stackinput name="Github" icons={ <FaGithub size={40} className='ml-24'/>} />
     <Stackinput name="AWS" icons={ <FaAws size={40} className='ml-24'/>} />
-    <Stackinput name="Typescript" icons={ <SiTypescript size={35} className='ml-24'/>} />
       </div>
   )
 }
