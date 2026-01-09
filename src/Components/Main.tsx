@@ -8,6 +8,7 @@ import Stack from "./Stack";
 import Project from "./Project";
 import { motion } from "motion/react";
 import { SiReaddotcv } from "react-icons/si";
+import resume from "../assets/RajaResume-Real.pdf"
 
 function Main() {
   const [date, setDate] = useState("");
@@ -108,7 +109,7 @@ function Main() {
                 navigate("https://github.com/RajaBhagat83");
               }}
             />
-            <a href="/D:\RajaResume-Real.pdf" download className="group btn" >
+            <a href={resume} download className="group btn" >
             <SiReaddotcv
             size={20} className="mt-0.5 group-hover:scale-110" />
             </a>
