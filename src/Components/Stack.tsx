@@ -13,24 +13,34 @@ import { SiSocketdotio } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { FaAws } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
-
 function Stack() {
   return (
-    <div className='flex flex-wrap w-[790px]'>
-    <Stackinput name="React Js" icons={<FaReact size={40} className='ml-24 '/>} />
-    <Stackinput name="Express Js" icons={ <SiExpress size={40} className='ml-24'/>} />
-    <Stackinput name="Mongo DB" icons={ <DiMongodb size={40} className='ml-24'/>} />
-    <Stackinput name="Postgres SQL" icons={ <DiPostgresql size={40} className='ml-24'/>} />
-    <Stackinput name="Next Js" icons={ <RiNextjsFill size={40} className='ml-24'/>} />
-    <Stackinput name="Typescript" icons={ <SiTypescript size={35} className='ml-24'/>} />
-    <Stackinput name="Tailwind CSS" icons={ <RiTailwindCssFill size={35} className='ml-24'/>} />
-    <Stackinput name="Recoil" icons={ <SiRecoil size={40} className='ml-24'/>} />
-    <Stackinput name="Redis" icons={ <DiRedis size={40} className='ml-24'/>} />
-    <Stackinput name="Socket.io" icons={ <SiSocketdotio size={35} className='ml-24'/>} />
-    <Stackinput name="Github" icons={ <FaGithub size={40} className='ml-24'/>} />
-    <Stackinput name="AWS" icons={ <FaAws size={40} className='ml-24'/>} />
-      </div>
-  )
+    <div
+      className="
+        flex flex-wrap 
+        w-[770px]
+        max-w-[770px]
+        mx-auto
+        justify-center
+        mr-44
+      "
+    >
+      <Stackinput name="React Js" icons={<FaReact size={40} className="ml-0 sm:ml-12 lg:ml-24" />} />
+      <Stackinput name="Express Js" icons={<SiExpress size={40} className="ml-0 sm:ml-12 lg:ml-24" />} />
+      <Stackinput name="Mongo DB" icons={<DiMongodb size={40} className="ml-0 sm:ml-12 lg:ml-24" />} />
+      <Stackinput name="Postgres SQL" icons={<DiPostgresql size={40} className="ml-0 sm:ml-12 lg:ml-24" />} />
+      <Stackinput name="Next Js" icons={<RiNextjsFill size={40} className="ml-0 sm:ml-12 lg:ml-24" />} />
+      <Stackinput name="Typescript" icons={<SiTypescript size={35} className="ml-0 sm:ml-12 lg:ml-24" />} />
+      <Stackinput name="Tailwind CSS" icons={<RiTailwindCssFill size={35} className="ml-0 sm:ml-12 lg:ml-24" />} />
+      <Stackinput name="Recoil" icons={<SiRecoil size={40} className="ml-0 sm:ml-12 lg:ml-24" />} />
+      <Stackinput name="Redis" icons={<DiRedis size={40} className="ml-0 sm:ml-12 lg:ml-24" />} />
+      <Stackinput name="Socket.io" icons={<SiSocketdotio size={35} className="ml-0 sm:ml-12 lg:ml-24" />} />
+      <Stackinput name="Github" icons={<FaGithub size={40} className="ml-0 sm:ml-12 lg:ml-24" />} />
+      <Stackinput name="AWS" icons={<FaAws size={40} className="ml-0 sm:ml-12 lg:ml-24" />} />
+    </div>
+  );
 }
 
-export default Stack
+export default Stack;
+
+
