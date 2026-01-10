@@ -46,13 +46,12 @@ useEffect(() => {
 
   if (lastVisit !== today) {
     const count = Number(localStorage.getItem("visitCount") || 0);
-    localStorage.setItem("visitCount", count + 1);
+    localStorage.setItem("visitCount",JSON.stringify(count + 1));
     localStorage.setItem("lastVisitDate", today);
   }
 }, []);
 const visitCount = localStorage.getItem('visitCount')|| 0;
-console.log(visitCount);
-console.log(Number(visitCount));
+
 
   return (
     <div className="h-full w-full">
