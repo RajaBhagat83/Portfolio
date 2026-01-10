@@ -40,19 +40,6 @@ function Main() {
     }, 3000);
   }, [index]);
 
-useEffect(() => {
-  const today = new Date().toDateString();
-  const lastVisit = localStorage.getItem("lastVisitDate");
-
-  if (lastVisit !== today) {
-    const count = Number(localStorage.getItem("visitCount") || 0);
-    localStorage.setItem("visitCount",JSON.stringify(count + 1));
-    localStorage.setItem("lastVisitDate", today);
-  }
-}, []);
-const visitCount = localStorage.getItem('visitCount')|| 0;
-
-
   return (
     <div className="h-full w-full">
   <Name />
@@ -113,9 +100,6 @@ const visitCount = localStorage.getItem('visitCount')|| 0;
         <a href={resume} download className="group">
           <SiReaddotcv size={20} className="group-hover:scale-110 transition" />
         </a>
-      </div>
-      <div className="relative top-12 -right-2 text-gray-800">
-        <h2>Views -{Number(visitCount) >9?visitCount:"0" + visitCount}</h2>
       </div>
 
       {/* Tabs */}
