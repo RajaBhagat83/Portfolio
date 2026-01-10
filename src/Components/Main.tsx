@@ -51,6 +51,9 @@ useEffect(() => {
   }
 }, []);
 const visitCount = localStorage.getItem('visitCount')|| 0;
+console.log(visitCount);
+console.log(Number(visitCount));
+
   return (
     <div className="h-full w-full">
   <Name />
@@ -113,7 +116,7 @@ const visitCount = localStorage.getItem('visitCount')|| 0;
         </a>
       </div>
       <div className="relative top-12 -right-2 text-gray-800">
-        <h2>Views -{visitCount >9?visitCount:"0" + visitCount}</h2>
+        <h2>Views -{Number(visitCount) >9?visitCount:"0" + visitCount}</h2>
       </div>
 
       {/* Tabs */}
