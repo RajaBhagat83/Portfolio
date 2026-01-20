@@ -3,6 +3,7 @@ import buddy from "../assets/buddy.png";
 import notes from "../assets/notes.png";
 import coffee from "../assets/Coffee.png";
 import paytm from "../assets/patym.png";
+import leetcode from "../assets/leetcode.webp"
 import { useNavigate } from "react-router-dom";
 
 function Project() {
@@ -40,6 +41,13 @@ function Project() {
         alt="Paytm-Demo"
         title="Paytm-Demo"
         desc="A P2P demo app where users can transfer and receive virtual money after logging in, mimicking real-world transactions"
+      />
+        <ProjectPart
+        link="https://leetcode.com/u/Raja_Bhagat/"
+        image={leetcode}
+        alt="Leetcode"
+        title="Leetcode"
+        desc="Actively solving Data Structures and Algorithms problems in C++ to strengthen problem-solving and logical thinking."
       />
 
       {/* More projects */}

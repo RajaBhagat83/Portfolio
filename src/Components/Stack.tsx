@@ -21,6 +21,8 @@ function Stack() {
     <div
       className="
         flex flex-wrap 
+        h-[500px]
+        max-h-[700px]
         w-[770px]
         max-w-[770px]
         mx-auto
