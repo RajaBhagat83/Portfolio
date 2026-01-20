@@ -18,18 +18,20 @@ import { SiWebrtc } from "react-icons/si"
 
 function Stack() {
   return (
-    <div
-      className="
-        flex flex-wrap 
-        h-[500px]
-        max-h-[700px]
-        w-[770px]
-        max-w-[770px]
-        mx-auto
-        justify-center
-        mr-44
-      "
-    >
+<div
+  className="
+    flex flex-wrap justify-center mx-auto
+    w-full
+    min-h-fit
+    h-auto
+    md:w-[90%]
+    md:min-h-[400px]
+    lg:w-[770px]
+    lg:min-h-[500px]
+    lg:max-h-[700px]
+    lg:mr-44
+  "
+>
       <Stackinput name="React Js" icons={<FaReact size={40} className="ml-0 sm:ml-12 lg:ml-24" />} />
       <Stackinput name="Express Js" icons={<SiExpress size={40} className="ml-0 sm:ml-12 lg:ml-24" />} />
       <Stackinput name="Mongo DB" icons={<DiMongodb size={40} className="ml-0 sm:ml-12 lg:ml-24" />} />
