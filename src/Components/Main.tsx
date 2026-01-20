@@ -8,7 +8,7 @@ import Stack from "./Stack";
 import Project from "./Project";
 import { motion } from "motion/react";
 import { SiReaddotcv } from "react-icons/si";
-import resume from "../assets/RajaResume-1Resume.pdf"
+import resume from "../assets/Raja-Resume.pdf"
 
 function Main() {
   const [date, setDate] = useState("");
