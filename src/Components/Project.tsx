@@ -4,6 +4,7 @@ import notes from "../assets/notes.png";
 import coffee from "../assets/Coffee.png";
 import paytm from "../assets/patym.png";
 import leetcode from "../assets/leetcode.webp"
+import LiveCanvas from "../assets/LiveCanvas.png"
 import { useNavigate } from "react-router-dom";
 
 function Project() {
@@ -12,13 +13,20 @@ function Project() {
   return (
     <div className="mt-6 w-full h-full flex flex-wrap justify-center sm:justify-start gap-6 sm:gap-8 sm:ml-6">
       <ProjectPart
-        link="https://frontend-finder.vercel.app/"
+        link="https://buddyfinder-psi.vercel.app/"
         image={buddy}
         alt="Buddy-finder"
         title="BuddySync"
         desc="A platform to discover, connect, and collaborate with compatible buddies"
       />
 
+      <ProjectPart
+        link="https://github.com/RajaBhagat83/LiveCanvas"
+        image={LiveCanvas}
+        alt="LiveCanvas"
+        title="LiveCanvas"
+        desc="A real-time collaborative drawing platform where multiple users can create, edit, and view shapes simultaneously using WebSockets and HTML Canvas"
+      />
       <ProjectPart
         link="https://notes-frontend-rho-sandy.vercel.app/login"
         image={notes}
